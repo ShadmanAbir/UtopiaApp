@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "7+rHoJnKdj2+F5lNxLz+08LVWh2oJKGaKeA6QjBKYcXeDM7aBNsmTkAYDbJdkD6r1OdaqzsAmzcJS2x7TtBndQ==",
+  "success": true,
+  "projectFilePath": "c:\\Users\\ABIR\\source\\repos\\UtopiaApp\\UtopiaApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ABIR\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
+    "C:\\Users\\ABIR\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.3\\microsoft.data.sqlite.core.6.0.3.nupkg.sha512",
+    "C:\\Users\\ABIR\\.nuget\\packages\\sqlitepclraw.core\\2.0.6\\sqlitepclraw.core.2.0.6.nupkg.sha512",
+    "C:\\Users\\ABIR\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
+  ],
+  "logs": []
+}
