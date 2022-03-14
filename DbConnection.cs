@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Data.Sqlite;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +9,11 @@ namespace UtopiaApp
 {
     public class DbConnection
     {
-        string s = "./db/UtopiaDB.db";
+        public SqliteConnection GetConnection()
+        {
+            SqliteConnection conn = new SqliteConnection("datasource=./db/UtopiaDB.db");
+            return conn;
+        }
+        
     }
 }

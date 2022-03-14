@@ -128,11 +128,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\ABIR\\source\\repos\\UtopiaApp\\UtopiaApp.csproj",
+      "projectUniqueName": "C:\\Users\\ABIR\\source\\repos\\UtopiaApp\\UtopiaApp.csproj",
       "projectName": "UtopiaApp",
-      "projectPath": "c:\\Users\\ABIR\\source\\repos\\UtopiaApp\\UtopiaApp.csproj",
+      "projectPath": "C:\\Users\\ABIR\\source\\repos\\UtopiaApp\\UtopiaApp.csproj",
       "packagesPath": "C:\\Users\\ABIR\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\ABIR\\source\\repos\\UtopiaApp\\obj\\",
+      "outputPath": "C:\\Users\\ABIR\\source\\repos\\UtopiaApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -143,7 +143,7 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net6.0-windows"
+        "net6.0-windows7.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
