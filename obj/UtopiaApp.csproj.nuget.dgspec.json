@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ABIR\\source\\repos\\UtopiaApp\\UtopiaApp.csproj": {}
+    "D:\\App\\UtopiaApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ABIR\\source\\repos\\UtopiaApp\\UtopiaApp.csproj": {
+    "D:\\App\\UtopiaApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ABIR\\source\\repos\\UtopiaApp\\UtopiaApp.csproj",
+        "projectUniqueName": "D:\\App\\UtopiaApp.csproj",
         "projectName": "UtopiaApp",
-        "projectPath": "C:\\Users\\ABIR\\source\\repos\\UtopiaApp\\UtopiaApp.csproj",
+        "projectPath": "D:\\App\\UtopiaApp.csproj",
         "packagesPath": "C:\\Users\\ABIR\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ABIR\\source\\repos\\UtopiaApp\\obj\\",
+        "outputPath": "D:\\App\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -48,9 +48,9 @@
               "target": "Package",
               "version": "[2.0.123, )"
             },
-            "Microsoft.Data.Sqlite.Core": {
+            "System.Data.SQLite": {
               "target": "Package",
-              "version": "[6.0.3, )"
+              "version": "[1.0.115.5, )"
             }
           },
           "imports": [

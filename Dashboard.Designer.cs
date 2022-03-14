@@ -2,15 +2,9 @@
 {
     partial class Dashboard
     {
-        /// <summary>
-        /// Required designer variable.
-        /// </summary>
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
-        /// Clean up any resources being used.
-        /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+       
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -43,9 +37,12 @@
             this.ShowButton = new System.Windows.Forms.Button();
             this.SaveButton = new System.Windows.Forms.Button();
             this.ViewPanel = new System.Windows.Forms.Panel();
+            this.dataGridView = new System.Windows.Forms.DataGridView();
             this.Menu.SuspendLayout();
             this.SalesPanel.SuspendLayout();
             this.BtnMNY.SuspendLayout();
+            this.ViewPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
             this.SuspendLayout();
             // 
             // Menu
@@ -200,6 +197,7 @@
             this.ShowButton.TabIndex = 3;
             this.ShowButton.Text = "Show";
             this.ShowButton.UseVisualStyleBackColor = true;
+            this.ShowButton.Click += new System.EventHandler(this.ShowButton_Click);
             // 
             // SaveButton
             // 
@@ -209,13 +207,25 @@
             this.SaveButton.TabIndex = 2;
             this.SaveButton.Text = "Save";
             this.SaveButton.UseVisualStyleBackColor = true;
+            this.SaveButton.Click += new System.EventHandler(this.SaveButton_Click);
             // 
             // ViewPanel
             // 
+            this.ViewPanel.Controls.Add(this.dataGridView);
             this.ViewPanel.Location = new System.Drawing.Point(240, 222);
             this.ViewPanel.Name = "ViewPanel";
             this.ViewPanel.Size = new System.Drawing.Size(807, 382);
             this.ViewPanel.TabIndex = 3;
+            // 
+            // dataGridView
+            // 
+            this.dataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView.Location = new System.Drawing.Point(20, 17);
+            this.dataGridView.Name = "dataGridView";
+            this.dataGridView.RowHeadersWidth = 51;
+            this.dataGridView.RowTemplate.Height = 29;
+            this.dataGridView.Size = new System.Drawing.Size(742, 334);
+            this.dataGridView.TabIndex = 0;
             // 
             // Dashboard
             // 
@@ -233,6 +243,8 @@
             this.SalesPanel.PerformLayout();
             this.BtnMNY.ResumeLayout(false);
             this.BtnMNY.PerformLayout();
+            this.ViewPanel.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -258,5 +270,6 @@
         private TextBox textBoxYear;
         private Label label5;
         private Label label6;
+        private DataGridView dataGridView;
     }
 }
